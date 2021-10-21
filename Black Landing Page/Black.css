@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	font: sans-serif;
+	box-sizing: border-box;
+}
+.Container{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("black.jpg"); 
+}
+body{
+	background-image: url("black.jpg");
+	background-size: cover;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 40px 100px;
+
+}
+header .logo{
+	position: relative;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.6s;
+	border-radius: 15px;
+	border: 2px solid none;
+	padding: 5px;
+	
+}
+header ul{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header ul li{
+	position: relative;
+	list-style: none;
+}
+header ul li a{
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 500px;
+	transition: 0.6s;
+	border-radius: 15px;
+	padding: 5px;
+}
+.logo:hover{
+	background-color: red;
+	border: 
+
+}
+header ul li a:hover{
+	background-color:  red;
+}
+.night{
+	color: white;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2.25em;
+	text-align: center;
+	margin-top: 250px;
+
+}
+p{
+	color: white;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2.25em;
+	text-align: center;
+	margin: 1px;
+}
+.star{
+	color: white;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2.25em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+span{
+	color: red ;
+}
+.btn{
+	color: white;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: center;
+	align-items: center;
+	margin-left: 43%;
+	border-radius: 3px;
+	background-color: red;
+	padding: 5px 15px 5px 15px;
+	text-decoration: none;
+	font-family: sans-serif;
+}
